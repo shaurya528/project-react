@@ -10,6 +10,7 @@ import './App.css'
 // import Code from './component/qr-code'
 import Scroll from './component/scroll'
 import Mytab from './component/tabs/my-tab'
+import Modeltest from './component/popup/model-test'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,7 +19,8 @@ function App() {
   return (
     <>
    {/* <StarRating noofstar={10}/> */}
-   <Mytab/>
+   {/* <Mytab/> */}
+   <Modeltest/>
     </>
   )
 }

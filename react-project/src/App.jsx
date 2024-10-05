@@ -7,7 +7,9 @@ import './App.css'
 // import Randomcolor from './component/random-color'
 // import StarRating from './component/Star-rating'
 // import ImageSlider from './component/image-slider'
-import Code from './component/qr-code'
+// import Code from './component/qr-code'
+import Scroll from './component/scroll'
+import Mytab from './component/tabs/my-tab'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,8 +18,7 @@ function App() {
   return (
     <>
    {/* <StarRating noofstar={10}/> */}
-   {/* <ImageSlider url = {"https://picsum.photos/v2/list"} page={'1'} limit ={"10"}/> */}
-   <Code/>
+   <Mytab/>
     </>
   )
 }
